@@ -27,29 +27,35 @@ public class Cat{
     public String getName() {
         return name;
     }
+
     public String getSex() {
         return sex;
     }
+
     public String getBreed() {
         return breed;
     }
+
     public boolean isInCafe() {
         return inCafe;
     }
+
     public void setName(String name) {
         this.name = name;
     }
+
     public void setSex(String sex) {
         this.sex = sex;
     }
+
     public void setInCafe(boolean inCafe) {
         this.inCafe = inCafe;
     }
+
     public void setBreed(String breed) {
         this.breed = breed;
     }
-
-
+    
     static void takeAwayFromCafe(Cat cat) {
         cat.setInCafe(cat.isInCafe()?false:true);
     }

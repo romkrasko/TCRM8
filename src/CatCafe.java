@@ -1,6 +1,5 @@
-import java.util.List;
-
 public class CatCafe {
+
     private String adress;
     private Cat[] cats;
     private String timeOfWork;
@@ -16,18 +15,23 @@ public class CatCafe {
     public String getAdress() {
         return adress;
     }
+
     public void setAdress(String adress) {
         this.adress = adress;
     }
+
     public String getTimeOfWork() {
         return timeOfWork;
     }
+
     public void setTimeOfWork(String timeOfWork) {
         this.timeOfWork = timeOfWork;
     }
+
     public int getCatCounter() {
         return catCounter;
     }
+
     public void setCatCounter(int catCounter) {
         this.catCounter = catCounter;
     }
